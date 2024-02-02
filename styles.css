@@ -21,9 +21,15 @@ body {
     flex-direction: column; 
    
 }
+#logo-odin {
+    height: 100px;
+}
+
 
 .left   {
-    background: transparent;}
+    background: transparent;
+    width: 50%;
+}
 
 .right {
     background-color: rgb(240, 240, 240);
@@ -33,6 +39,8 @@ body {
     background-color: rgba(28, 25, 25, 0.523);
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 100%;
     
 }
 
@@ -66,7 +74,7 @@ body {
 }
 
 input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
-    border: 1px solid #ccc;
+    border: 1px solid #E5E7EB;
     border-radius: 4px;
     padding: 10px;
     margin: 5px 0;
@@ -74,7 +82,7 @@ input[type="text"], input[type="email"], input[type="password"], input[type="tel
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #596D48;
     color: white;
     padding: 10px 15px;
     border: none;
